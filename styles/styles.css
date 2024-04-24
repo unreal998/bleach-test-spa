@@ -1,11 +1,20 @@
+a {
+    color: white;
+}
+
 header{
+    display: flex;
+    justify-content: space-between;
     background-color: rgb(0, 0, 0);
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 body {
     margin: 0;
     padding: 0;
-    background-image: url("../images/bleachBGImage.jpg");
-    background-size: cover;
 }
 .logo{
     display: flex;
@@ -17,16 +26,11 @@ body {
 .reg{
     background-color: rgb(227, 16, 16);
     padding: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: system-ui;
     text-decoration: none;
-    display: inline-block;
     cursor: pointer;
     border-radius: 5px;
-    margin-bottom: 60px;
-    margin-right: 10px;
+    padding-bottom: 7px;
     
 }
 .reg:hover{
@@ -36,7 +40,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
 }
 .back{
     width: 1519px;
@@ -48,34 +51,35 @@ a{
 .enter{
     background-color: rgb(0, 0, 0);
     padding: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: system-ui;
     text-decoration: none;
-    display: inline-block;
     cursor: pointer;
     border-radius: 5px;
     border: 1px solid #fffffff9;
-    margin-bottom: 60px;
 }
 .enter:hover{
     background-color: rgba(80, 77, 77, 0.844);
 }
 .top{
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
     align-items: center;
-    height: 0px;
-    margin-right: 40px;
     color: white;
+    gap: 20px;
 }
-.text1{
-    margin-bottom: 60px;
-    margin-right: 10px;
+.text1 {
     font-family: system-ui;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     font-size: small;
+}
+
+.bleach {
+    background-image: url("../images/bleachBGImage.jpg");
+    background-size: cover;
+    height: 700px;
+}
+
+@media (width <= 500px)  {
+    .text1 {
+        display: none;
+    }
 }
