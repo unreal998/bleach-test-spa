@@ -36,11 +36,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 15px;
 }
 .back{
     width: 1519px;
     height: 850px;
+    background: linear-gradient(to right, rgba(52, 49, 49, 0.641), rgb(77, 77, 82));
 }
 a{
     text-decoration: none;
@@ -78,4 +79,26 @@ a{
     flex-direction: row;
     flex-wrap: nowrap;
     font-size: small;
+}
+.opisanie{
+        color: white;
+        font-family: system-ui;
+        margin-top: 300px;
+        margin-left: 70px;
+        width: 500px;
+}
+.film{
+    width: 500px;
+    margin-top: 150px;
+    margin-left: 70px;
+}
+.bleach{
+    height: 100px;
+}
+.video{
+    display: flex;
+    width: 100px; 
+  height: 100px; 
+  background-color: black; 
+  margin-left: 1050px;
 }
