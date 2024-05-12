@@ -69,33 +69,59 @@ a{
     gap: 20px;
 }
 .text1 {
+    display: flex;
+    align-items: center;
     font-family: system-ui;
     font-size: small;
 }
 .opisanie{
-        color: white;
+        color: rgb(234, 228, 228);
         font-family: system-ui;
-        margin-top: 300px;
-        margin-left: 70px;
-        width: 500px;
+        width: 500px; 
+        position: relative;
+        bottom: 350px;
+        left: 70px;
 }
 .film{
-    width: 500px;
-    margin-top: 150px;
-    margin-left: 70px;
+    max-width: 500px;
+    padding: 70px;
+    display: flex;
 }
 .video{
     display: flex;
-    width: 100px; 
-  height: 100px; 
-  background-color: black; 
-  margin-left: 1050px;
+    width: 400px; 
+    height: 300px; 
+    background-color: black; 
+    align-content: center;
+    position: relative;
+    left: 840px;
+    bottom: 580px;
 }
 
 .bleach {
     background-image: url("../images/bleachBGImage.jpg");
     background-size: cover;
     height: 700px;
+}
+.foot{
+    background-color: rgb(58, 54, 54);
+    height: 53px;
+    color: white;
+    font-family: system-ui;
+    position: relative;
+    bottom: 400px;
+    background-image: linear-gradient(to left, #565353, #101012);
+}
+.whatch{
+     position: relative;
+     top: 15px;
+     left: 45px;
+}
+.netflix{
+    position: relative;
+    bottom: 11px;
+    width: 35px;
+    height: 35px;
 }
 
 @media (width <= 500px)  {
