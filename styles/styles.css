@@ -44,6 +44,7 @@ body {
 .back{
     width: 1519px;
     height: 850px;
+    background: linear-gradient(to right, rgba(52, 49, 49, 0.641), rgb(77, 77, 82));
 }
 a{
     text-decoration: none;
@@ -68,14 +69,59 @@ a{
     gap: 20px;
 }
 .text1 {
+    display: flex;
+    align-items: center;
     font-family: system-ui;
     font-size: small;
+}
+.opisanie{
+        color: rgb(234, 228, 228);
+        font-family: system-ui;
+        width: 500px; 
+        position: relative;
+        bottom: 350px;
+        left: 70px;
+}
+.film{
+    max-width: 500px;
+    padding: 70px;
+    display: flex;
+}
+.video{
+    display: flex;
+    width: 400px; 
+    height: 300px; 
+    background-color: black; 
+    align-content: center;
+    position: relative;
+    left: 840px;
+    bottom: 580px;
 }
 
 .bleach {
     background-image: url("../images/bleachBGImage.jpg");
     background-size: cover;
     height: 700px;
+}
+.foot{
+    background-color: rgb(58, 54, 54);
+    height: 53px;
+    color: white;
+    font-family: system-ui;
+    position: relative;
+    bottom: 400px;
+    background-image: linear-gradient(to left, #565353, #101012);
+}
+.whatch{
+     position: relative;
+     top: 15px;
+     left: 45px;
+}
+.netflix{
+    position: relative;
+    bottom: 11px;
+    width: 35px;
+    height: 35px;
 }
 
 @media (width <= 500px)  {
