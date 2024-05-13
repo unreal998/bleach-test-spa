@@ -13,6 +13,7 @@ header{
     padding-bottom: 5px;
 }
 body {
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
 }
@@ -78,14 +79,16 @@ a{
         color: rgb(234, 228, 228);
         font-family: system-ui;
         width: 500px; 
-        position: relative;
-        bottom: 350px;
-        left: 70px;
 }
-.film{
+.logoDesc {
     max-width: 500px;
+}
+.description{
     padding: 70px;
     display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-around;
 }
 .video{
     display: flex;
@@ -94,22 +97,22 @@ a{
     background-color: black; 
     align-content: center;
     position: relative;
-    left: 840px;
-    bottom: 580px;
 }
 
 .bleach {
+    display: flex;
     background-image: url("../images/bleachBGImage.jpg");
     background-size: cover;
     height: 700px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 .foot{
     background-color: rgb(58, 54, 54);
-    height: 53px;
     color: white;
     font-family: system-ui;
     position: relative;
-    bottom: 400px;
     background-image: linear-gradient(to left, #565353, #101012);
 }
 .whatch{
