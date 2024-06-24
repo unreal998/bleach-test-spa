@@ -1,4 +1,3 @@
- console.log("hello")
  const characters = [
         { name: 'Ichigo Kurosaki', bankai: 'Tensa Zangetsu' },
         { name: 'Kisuke Urahara', bankai: 'Benihime' },
