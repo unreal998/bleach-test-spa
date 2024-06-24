@@ -127,8 +127,3 @@ align-items: center;
     height: 35px;
 }
 
-@media (width <= 500px)  {
-    .text1 {
-        display: none;
-    }
-}
